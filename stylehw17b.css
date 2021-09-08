@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://droider.ru/wp-content/uploads/2014/07/113.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px red;
+}
+
+input, select, button {
+    border-radius: 5px;
+}
+.form-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+ul {
+    margin-left: 30%;
+    border: 2px solid;
+    width: 40%;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+  grid-column: 1/3;
+  justify-content: center;
+}
+
+.row input {
+  margin: 0 15px;
+}
+
+span {
+    text-shadow: 1px 1px red;
+}
